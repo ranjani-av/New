@@ -1,0 +1,16 @@
+def input1():
+    a=float(input("Enter a number:"))
+    return a
+def compute2(a,b):
+    c=a+b
+    return c
+def output3(a,b,c):
+    print("The sum of %.1f and %.1f is %.1f"%(a,b,c))
+def main4():
+    x=input1()
+    y=input1()
+    z=compute2(x,y)
+    output3(x,y,z)
+
+
+#for dir in ~/FindIt/*; do if(cat $dir| grep -l Ekatha) then echo "$dir"; fi; done
